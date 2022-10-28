@@ -18,7 +18,7 @@ class SecondScreen extends StatelessWidget {
           Center(
             child: Image(
               image: AssetImage(img),
-              height: 100,
+              height: 300,
               width: 300,
             ),
           ),

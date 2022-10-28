@@ -29,7 +29,9 @@ class HomeScreen extends StatelessWidget {
       ),
       body: Column(
         children: [
-          Image.asset("images/img.jpeg"),
+          Image.asset(
+            "images/f.jpeg",
+          ),
           SizedBox(height: 10),
           Text(
             FullName,
@@ -46,7 +48,7 @@ class HomeScreen extends StatelessWidget {
             onPressed: () {
               var route = MaterialPageRoute(
                 builder: (_) => SecondScreen(
-                  img: "images/img.jpeg",
+                  img: "images/f.jpeg",
                   name: "Hassan Abdirizak Mohamed",
                 ),
               );
